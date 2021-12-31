@@ -10,7 +10,6 @@ body {
   font-family: "Courier", "Courier New", "Lucida Console", monospace;
 }
 ul {
-  list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -19,33 +18,23 @@ ol {
   list-style-type: lower-roman;
 }
 li {
-  display: inline;
+  list-style-type: disc;
+  list-style-position: inside;
 }
 p {
   text-align: left;
 }
-a:link {
-  color: blue;
+a:link, 
+a:visited, 
+a:active, 
+a:visited:active {
+  color: #2E9CCA;
   text-decoration: none;
 }
-a:visited {
-  color: purple;
-}
-a:hover {
-  color: aqua;
-  text-decoration: underline;
-}
-a:active {
-  color: red;
-}
+a:hover, 
 a:visited:hover {
-  color: orange;
-}
-a:visited:active {
-  color: red;
-}
-h1, h2, h3, h4, h5, h6 {
-  padding: 20px 10px;
+  transition:  0.3s ease-in-out;
+  color: #5680E9;
 }
 div {
   font-weight: normal;
@@ -67,7 +56,7 @@ div {
 
 
 
-/* Header */ 
+/* =============== header =============== */ 
 .header {
   height: 9vh;
   background-color: #90CCF4;
@@ -76,7 +65,7 @@ div {
   border-bottom: 0.6vh solid black;
 }
 
-/* Left Side */
+/* =============== left side =============== */
 .logo-container {
   width: 50vw;
   display: flex;
@@ -94,7 +83,7 @@ div {
   color: black;
 }
 
-/* Right Side */
+/* =============== right side =============== */
 .menu-container {
   width: 70vw;
   display: flex;
@@ -149,7 +138,7 @@ div {
 
 
 
-/* Home */
+/* =============== home =============== */
 .content-wrap {
   overflow: hidden;
   position: relative;
@@ -190,6 +179,8 @@ div {
   right: 20vw;
   width: 15vw;
 }
+
+/* =============== typewriter =============== */
 .css-typing p {
   white-space: nowrap;
   overflow: hidden;
@@ -250,7 +241,7 @@ div {
 
 
 
-/* Grid */
+/* =============== grid =============== */
 .grid-container {
   width: 90vw;
   display: flex;
@@ -330,7 +321,7 @@ div {
 
 
 
-/* Photo Gallery */
+/* =============== photo gallery =============== */
 .gallery {
   display: flex;
   justify-content: center;
@@ -359,7 +350,7 @@ div {
 .column img.last-row {
   margin-bottom: 3vh;
 }
-/* Responsive layout - one column */
+/* responsive layout - one column */
 @media screen and (max-width: 500px) {
   .column {
     flex: 100%;
@@ -371,7 +362,135 @@ div {
 
 
 
-/* Footer */
+/* =============== about =============== */
+.about-container {
+  border: black 1px solid;
+  display: flex;
+  font-size: 2vh;
+  justify-content: center;
+  flex-direction: column;
+}
+.about-items {
+  width: 60vw;
+  margin: 3vh auto;
+}
+.about-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.about-description {
+  width: 40vw;
+  font-size: 1vw;
+}
+.about-items img {
+  width: 17.5vw;
+  height: 17.5vw;
+  margin-right: 3vh;
+  border-radius: 2%;
+}
+.about-items p {
+  text-align: left;
+  font-size: 1vw;
+}
+.journey {
+  margin: 3vh auto 0vh auto;
+  padding-top: 3vh;
+  width: 50vw;
+  border-top: 0.6vh dashed black;
+  font-size: 3vw;
+  text-align: center;
+}
+
+/* =============== timeline =============== */
+.timeline {
+  width: 90%;
+  margin: 3vh auto 10vh auto;
+  position: relative;
+}
+.timeline:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 0.3vw;
+  height: 100%;
+  background: black;
+  opacity: 0.3;
+  border-radius: 1vw;
+}
+.timeline article {
+  width: 100%;
+  margin-bottom: 0vh;
+  position: relative;
+}
+.timeline article:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.timeline article div.inner {
+  width: 45%;
+  float: left;
+  border-radius: 2%;
+}
+.timeline article div.inner span.date {
+  display: block;
+  width: 4vw;
+  height: 4vw;
+  padding-top: 0.5vw;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: 0 0 0 -1.85vw;
+  border-radius: 100%;
+  font-size: 1vw;
+  text-transform: uppercase;
+  background: #F78888;
+  color: white;
+  border: 0.2vw solid rgba(255,255,255,0.5);
+}
+.timeline article div.inner span.date span {
+  display: block;
+  text-align: center;
+}
+.timeline article div.inner span.date span.month {
+  font-size: 1.2vw;
+}
+.timeline article div.inner span.date span.year {
+  font-size: 1vw;
+}
+.timeline article div.inner h2 {
+  padding: 1vw;
+  margin: 0;
+  color:black;
+  font-size: 1.45vw;
+  font-weight: normal;
+  border-radius: 6px 6px 0 0;
+  position: relative;
+}
+.timeline article div.inner ul {
+  padding: 1vw;
+  font-size: 0.9vw;
+  background: white;
+  color: black;
+  border-radius: 0 0 6px 6px;
+}
+.timeline article:nth-child(2n+2) div.inner {
+  float: right;
+}
+.timeline article:nth-child(n) div.inner h2 {
+  background: #F3D250;
+}
+.timeline article:nth-child(n) div.inner h2:after {
+  background: #F3D250;
+}
+
+
+
+
+
+/* =============== footer =============== */
 .footer {
   border-top: 0.6vh solid black;
   height: 30vh;
