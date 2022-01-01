@@ -298,14 +298,8 @@ div {
     height: 60vw;
   }
   .content-text {
-    font-size: 1.2vh;
-    margin-bottom: 1.2vh;
-  }
-}
-@media only screen and (max-width: 600px) and (min-width: 900px) {
-  .content-text {
-    font-size: 1.5vw;
-    margin-bottom: 1.5vw;
+    font-size: 1vh;
+    margin-bottom: 1vh;
   }
 }
 
