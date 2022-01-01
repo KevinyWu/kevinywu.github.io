@@ -142,6 +142,9 @@ div {
   .header {
     border-bottom: 0;
   }
+  .title {
+    font-size: 5vh;
+  }
   .menu-container {
     width: 15vw;
   }
