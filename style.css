@@ -67,7 +67,7 @@ div {
 
 /* =============== left side =============== */
 .logo-container {
-  width: 50vw;
+  width: 70vw;
   display: flex;
   justify-content: flex-start;
 }
@@ -79,7 +79,7 @@ div {
 .title {
   display: block;
   margin: auto 0px;
-  font-size: 3.75vw;
+  font-size: 6vh;
   color: black;
 }
 
@@ -133,6 +133,52 @@ div {
 .active-menuitem a {
   color: gray !important;
 }
+.small-menu {
+  display: none;
+}
+
+/* =============== phone header =============== */
+@media only screen and (max-width: 600px) {
+  .header {
+    border-bottom: 0;
+  }
+  .menu-container {
+    width: 40vw;
+  }
+  .menu { 
+    display: none; 
+  }
+  .small-menu {
+    display: flex;
+    padding-top: 1vh;
+    z-index: 1;
+  }
+  .menu-icon {
+    color: white;
+  }
+  nav {
+    position: absolute;
+    background-color: #90CCF4;
+    top:9vh;
+    left:0;
+    width: 100vw;
+    border-bottom: 0.6vh solid black;
+    overflow: hidden;
+    max-height: 0;
+  }
+  .menuitem {
+    margin-bottom: 2.5vh;
+    font-size: 4vh;
+    text-align: center;
+  }
+  #toggle {
+    display: none;
+  }
+  #toggle:checked ~ nav {
+    max-height: none;
+    transition: all 0.5s;
+  }
+}
 
 
 
@@ -145,7 +191,7 @@ div {
   background-color: #ECECEC;
 }
 .background {
-  height: 90vh;
+  height: 100vh;
   width: 100vw;
   background-color: #F5CF8E;
   position: absolute;
@@ -157,10 +203,10 @@ div {
   opacity: 0.3;
 }
 .background img {
-  max-height: 100%;
+  width: 100%;
 }
 .content {
-  height: 90vh;
+  height: 100vh;
   width: 75vw;
   margin: 0px auto;
   position: relative;
@@ -175,8 +221,8 @@ div {
 }
 .gif {
   position: absolute;
-  top: 20vh;
-  right: 20vw;
+  top: 23vh;
+  right: 22vw;
   width: 15vw;
 }
 
@@ -234,6 +280,22 @@ div {
   100% {
     opacity: 1;
     border: none;
+  }
+}
+
+/* =============== phone home =============== */
+@media only screen and (max-width: 600px) {
+  .background {
+    height: 60vw;
+  }
+  .background img {
+    width: 100%;
+  }
+  .content {
+    height: 60vw;
+  }
+  .gif {
+    top: 14vh;
   }
 }
 
@@ -317,6 +379,26 @@ div {
   justify-content: center;
 }
 
+/* =============== phone grid =============== */
+@media only screen and (max-width: 600px) {
+  .grid-item {
+    margin-bottom: 3vh;
+    width: 60vw;
+    height: 60vw;
+  }
+  .grid-item.center {
+    margin: 0vw 3vh 3vh 3vh;
+  }
+  .project-description {
+    color: white;
+    font-size: 2.4vw;
+  }
+  .project-title {
+    font-size: 3.6vw;
+    margin-bottom: 2.4vw;
+  }
+}
+
 
 
 
@@ -350,11 +432,22 @@ div {
 .column img.last-row {
   margin-bottom: 3vh;
 }
-/* responsive layout - one column */
-@media screen and (max-width: 500px) {
+.phone-gallery {
+  display: none;
+}
+
+/* =============== phone photo gallery =============== */
+@media only screen and (max-width: 600px) {
+  .gallery {
+    display: none;
+  }
+  .phone-gallery {
+    display: flex;
+    justify-content: center;
+  }
   .column {
-    flex: 100%;
-    max-width: 100%;
+    flex: 45vw;
+    max-width: 45vw;
   }
 }
 
@@ -364,7 +457,6 @@ div {
 
 /* =============== about =============== */
 .about-container {
-  border: black 1px solid;
   display: flex;
   font-size: 2vh;
   justify-content: center;
@@ -388,10 +480,6 @@ div {
   margin-right: 3vh;
   border-radius: 2%;
 }
-.about-items p {
-  text-align: left;
-  font-size: 1vw;
-}
 .journey {
   margin: 3vh auto 0vh auto;
   padding-top: 3vh;
@@ -400,6 +488,34 @@ div {
   font-size: 3vw;
   text-align: center;
 }
+
+/* =============== phone about =============== */
+@media only screen and (max-width: 600px) {
+  .about-items {
+    width: 90vw;
+  }
+  .about-wrapper {
+    flex-direction: column;
+  }
+  .about-description {
+    width: 80vw;
+    font-size: 2.25vw;
+    margin: 0vh auto;
+  }
+  .about-items img {
+    width: 40vw;
+    height: 40vw;
+    margin: 0vh auto;
+    margin-bottom: 3vh;
+  }
+  .journey {
+    font-size: 6vw;
+  }
+}
+
+
+
+
 
 /* =============== timeline =============== */
 .timeline {
@@ -444,7 +560,6 @@ div {
   left: 50%;
   margin: 0 0 0 -1.85vw;
   border-radius: 100%;
-  font-size: 1vw;
   text-transform: uppercase;
   background: #F78888;
   color: white;
@@ -484,6 +599,49 @@ div {
 }
 .timeline article:nth-child(n) div.inner h2:after {
   background: #F3D250;
+}
+
+/* =============== phone timeline =============== */
+@media only screen and (max-width: 600px) {
+  .timeline {
+    width: 75%;
+    margin: 3vh auto 3vh auto;
+  }
+  .timeline:before {
+    left: 4.5vw;
+    width: 0.6vw;
+  }
+  .timeline article {
+    margin-bottom: 5vh;
+  }
+  .timeline article div.inner {
+    width: 80%;
+  }
+  .timeline article div.inner span.date {
+    width: 10vw;
+    height: 10vw;
+    padding-top: 1.5vw;
+    position: absolute;
+    top: 0;
+    left: 1.5vw;
+  }
+  .timeline article div.inner span.date span.month {
+    font-size: 3vw;
+  }
+  .timeline article div.inner span.date span.year {
+    font-size: 2.5vw;
+  }
+  .timeline article:nth-child(2n+1) div.inner {
+    float: right;
+  }
+  .timeline article div.inner h2 {
+    padding: 1.5vw;
+    font-size: 3.5vw;
+  }
+  .timeline article div.inner ul {
+    padding: 1.5vw;
+    font-size: 2.1vw;
+  }
 }
 
 
@@ -542,4 +700,12 @@ div {
 }
 .footer-text {
   font-size: 1vw;
+}
+
+/* =============== phone footer =============== */
+@media only screen and (max-width: 600px) {
+  .footer-text {
+    font-size: 2vw;
+    text-align: center;
+  }
 }
