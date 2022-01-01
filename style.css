@@ -298,8 +298,8 @@ div {
     height: 60vw;
   }
   .content-text {
-    font-size: 1.9vw;
-    margin-bottom: 1.9vw;
+    font-size: 1.8vw;
+    margin-bottom: 1.8vw;
   }
 }
 
@@ -709,7 +709,7 @@ div {
 /* =============== phone footer =============== */
 @media only screen and (max-width: 600px) {
   .footer-text {
-    font-size: 2vw;
+    font-size: 1.8vw;
     text-align: center;
   }
 }
