@@ -85,7 +85,7 @@ div {
 
 /* =============== right side =============== */
 .menu-container {
-  width: 70vw;
+  width: 85vw;
   display: flex;
   justify-content: flex-end;
 }
@@ -143,7 +143,7 @@ div {
     border-bottom: 0;
   }
   .menu-container {
-    width: 40vw;
+    width: 15vw;
   }
   .menu { 
     display: none; 
