@@ -321,7 +321,7 @@ div {
   flex-wrap: wrap;
 }
 .grid-item {
-  margin-bottom: 3vh;
+  margin: 0vw 1.5vh 3vh 1.5vh;
   border-radius: 2%;
   background-color: white;
   width: 25vw;
@@ -338,9 +338,6 @@ div {
 .grid-item img {
   max-width: 100%;
   max-height: 100%;
-}
-.grid-item.center {
-  margin: 0vw 3vh;
 }
 .grid-item img.comingsoon {
   max-height: 40%;
@@ -389,9 +386,6 @@ div {
     margin-bottom: 3vh;
     width: 60vw;
     height: 60vw;
-  }
-  .grid-item.center {
-    margin: 0vw 3vh 3vh 3vh;
   }
   .project-description {
     color: white;
