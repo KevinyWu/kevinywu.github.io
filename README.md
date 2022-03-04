@@ -1,4 +1,4 @@
 # kevinywu.github.io
 My personal website.
 
-![image](https://github.com/kevinywu/kevinywu.github.io/blob/main/images/home.png?raw=true)
+<img src="https://github.com/KevinyWu/KevinyWu/blob/main/images/website.png" alt="drawing" width="1000"/>
