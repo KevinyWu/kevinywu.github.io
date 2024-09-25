@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2024-06-01
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Graduated from UChicago with a BS in <a href="https://cam.uchicago.edu/">Applied Math</a> and a MS in <a href="https://cs.uchicago.edu/mpcs/">Computer Science</a> 🎓
