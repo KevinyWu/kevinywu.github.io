@@ -2,10 +2,10 @@
 layout: page
 title: LEGO
 permalink: /lego/
-description: My LEGO artwork.
+description: 
 nav: true
 nav_order: 5
-display_categories: [work, fun]
+display_categories: [Seasons, Creations]
 horizontal: false
 ---
 

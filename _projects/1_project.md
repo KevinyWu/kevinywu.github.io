@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 1
+title: Manipulation Course
 description: with background image
 img: assets/img/12.jpg
 importance: 1

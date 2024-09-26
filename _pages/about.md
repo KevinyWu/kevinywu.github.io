@@ -15,14 +15,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I graduated from [UChicago](https://www.uchicago.edu/) with a BS in [Applied Math](https://cam.uchicago.edu/) and a MS in [Computer Science](https://cs.uchicago.edu/mpcs/) in June 2024. I currently work as a software engineer at [MathWorks](https://www.mathworks.com/) in the Boston area.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+During my senior year, I was fortunate to work in the [Robot Intelligence through Perception Lab](https://ttic.edu/ripl/), advised by [Prof. Matthew Walter](https://home.ttic.edu/~mwalter/). My research interest lies in **robotic manipulation**, with the goal of building robots that can develop a deep understanding of the world by learning from humans and their own experiences. Thus, I am interested in **imitation learning**, **reinforcement learning**, and **self-supervised learning**.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Previously, I was a member of [ZeD Lab](https://zed.uchicago.edu/) at UChicago Medicine under the guidance of [Prof. Ishanu Chattopadhyay](https://zed.uchicago.edu/people.html).
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My favorite hobby is building custom [LEGO creations](https://www.flickr.com/). I'll sporadically post time-lapses on my [YouTube channel](https://www.youtube.com/@kevthebuilder), and my creations have been displayed in the LEGO House and LEGOLAND Billund! I also enjoy playing basketball, cheering on Borussia Dortmund, playing Britpop and folk songs on guitar, and reading Kurt Vonnegut books.
