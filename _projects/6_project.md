@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Notes
+title: Competitive Programming
 description: a project with a background image
 img: assets/img/1.jpg
-importance: 5
+importance: 6
 category: fun
 ---
 
