@@ -1,10 +1,12 @@
 ---
 layout: page
-title: Notes
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 5
-category: fun
+title: UR5 Teleoperation
+description: a project that redirects to another website
+img: assets/img/7.jpg
+importance: 3
+category: robotics
+redirect:
+related_publications: false
 ---
 
 Every project has a beautiful feature showcase page.

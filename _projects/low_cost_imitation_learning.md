@@ -1,11 +1,12 @@
 ---
 layout: page
-title: UR5 Teleoperation
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
-category: work
+title: Low-Cost Imitation Learning
+description: a project with a background image and giscus comments
+img: assets/img/3.jpg
+importance: 2
+category: robotics
+redirect:
+related_publications: true
 ---
 
 Every project has a beautiful feature showcase page.

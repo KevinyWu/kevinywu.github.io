@@ -1,10 +1,12 @@
 ---
 layout: page
-title: Competitive Programming
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 6
-category: fun
+title: Duckiebot Mobile Manipulator
+description: another without an image
+img:
+importance: 4
+category: robotics
+redirect:
+related_publications: false
 ---
 
 Every project has a beautiful feature showcase page.
