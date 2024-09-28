@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Manipulation Course
-description: with background image
-img: assets/img/12.jpg
-importance: 1
+description: Introduction to robot manipulation with a low-cost robot arm.
+img: assets/img/project/manipulation_course/cover.jpg
+importance: 3
 category: robotics
 redirect:
 related_publications: false

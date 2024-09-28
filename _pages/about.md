@@ -21,4 +21,4 @@ My robotics journey started in March 2024, when I joined the [Robot Intelligence
 
 Previously, I was a member of [ZeD Lab](https://zed.uchicago.edu/) at UChicago Medicine, fortunate to be advised by [Prof. Ishanu Chattopadhyay](https://zed.uchicago.edu/people.html).
 
-My favorite hobby is building custom [LEGO creations](https://www.flickr.com/). I'll sporadically post time-lapses on my [YouTube channel](https://www.youtube.com/@kevthebuilder), and my creations have been displayed in the LEGO House and LEGOLAND Billund! I also enjoy playing basketball, cheering on Borussia Dortmund, playing folk songs on guitar, and reading Kurt Vonnegut books.
+My favorite hobby is building custom [LEGO creations](https://www.flickr.com/). I'll sporadically post time-lapses on my [YouTube channel](https://www.youtube.com/@kevthebuilder), and my creations have been displayed in the LEGO House and LEGOLAND Billund! I also enjoy playing basketball, cheering on (and lamenting) Borussia Dortmund, playing guitar and harmonica, and reading.

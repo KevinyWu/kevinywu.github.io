@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Low-Cost Imitation Learning
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
+description: Unified framework for benchmarking imitation learning algorithms.
+img: assets/img/project/low_cost_imitation_learning/cover.jpg
+importance: 1
 category: robotics
 redirect:
 related_publications: true
