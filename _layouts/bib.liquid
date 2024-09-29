@@ -207,7 +207,11 @@
       {% endif %}
       {% if entry.pdf %}
         {% if entry.pdf contains '://' %}
-          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          {% if entry.pdf contains 'REU2021' %}
+            <a href="http://math.uchicago.edu/~may/REU2021/REUPapers/Wu,Kevin.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          {% else %}
+            <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          {% endif %}
         {% else %}
           <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
         {% endif %}

@@ -2,7 +2,7 @@
 layout: page
 title: UR5 Teleoperation
 description: UR5 teleoperation with Leap Motion hand-tracking and Meta Quest 3. Showcased at MSI in Chicago, 2024.
-img: assets/img/project/ur5_teleoperation/cover.jpg
+img: assets/img/project/ur5-teleoperation/cover.jpg
 importance: 2
 category: robotics
 redirect:

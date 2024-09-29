@@ -2,7 +2,7 @@
 layout: page
 title: Low-Cost Imitation Learning
 description: Unified framework for benchmarking imitation learning algorithms.
-img: assets/img/project/low_cost_imitation_learning/cover.jpg
+img: assets/img/project/low-cost-imitation-learning/cover.jpg
 importance: 1
 category: robotics
 redirect:

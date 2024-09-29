@@ -1,9 +1,7 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"ICLR":
+  url: https://iclr.cc/
+  color: "#8cd139"
 
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
-  color: "#009f36"
+"Sci. Adv.":
+  url: https://advances.sciencemag.org/
+  color: "#c92e31"

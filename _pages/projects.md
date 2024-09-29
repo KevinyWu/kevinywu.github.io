@@ -8,6 +8,8 @@ nav_order: 4
 display_categories: false
 horizontal: false
 ---
+Visit my [GitHub](https://github.com/KevinyWu) for source code and more projects.
+<hr>
 
 <!-- pages/projects.md -->
 <div class="projects">
