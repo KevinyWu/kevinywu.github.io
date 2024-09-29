@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started a software engineering job at <a href="https://www.mathworks.com/">MathWorks</a> 🚀
+Started a software engineering job at [MathWorks](https://www.mathworks.com/). 🚀

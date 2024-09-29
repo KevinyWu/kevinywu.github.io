@@ -2,81 +2,40 @@
 layout: page
 title: Duckiebot Arm
 description: Collaboration with Duckietown. World's smallest fully-programmable mobile manipulator. Coming in 2025!
-img: assets/img/project/duckiebot-arm/cover.jpg
+img: assets/img/projects/duckiebot-arm/cover.jpg
 importance: 4
 category: robotics
 redirect:
 related_publications: false
 ---
+<hr>
+<div class="row">
+    <div class="col">
+        {% include video.liquid path="assets/img/projects/duckiebot-arm/grasp_duck.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true muted=true loop=true %}
+    </div>
+</div>
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+I had the pleasure of designing and building a 4-DOF prototype arm module with [Duckietown](https://duckietown.com/), a company offering small autonomous vehicles ("Duckiebots") for education and research. The arm enables the Duckiebot to grasp objects and interact with its environment, leading to a wide range of new applications. With the arm module, the new Duckiebot is among the world's smallest fully-programmable mobile manipulators. Coming in 2025!
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col">
+        {% include figure.liquid loading="eager" path="assets/img/projects/duckiebot-arm/camera.jpg" title="Palm camera" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col">
+        {% include figure.liquid loading="eager" path="assets/img/projects/duckiebot-arm/camera_stream.jpg" title="Camera stream" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    The Duckiebot Arm features a palm camera with 30 FPS 2592 × 1944 resolution.
 </div>
+
+I used a combination of 3D printing and off-the-shelf components to build the arm. The servos are [Dynamixel XL330-M288](https://emanual.robotis.com/docs/en/dxl/x/xl330-m288/), which offer six different control modes. The arm features a 2592 × 1944 pixel [palm camera](https://www.waveshare.com/wiki/IMX335_5MP_USB_Camera_(B)) streaming up to 30 FPS. A comparison between the [previous Duckiebot](https://get.duckietown.com/products/duckiebot-db21) and the new Duckiebot with arm module is shown below.
+
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col">
+        {% include figure.liquid loading="eager" path="assets/img/projects/duckiebot-arm/comparison.jpg" title="Old vs. New Duckiebot" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Comparison between the <a href="https://get.duckietown.com/products/duckiebot-db21">previous Duckiebot</a> and the new Duckiebot prototype with arm module.
 </div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}

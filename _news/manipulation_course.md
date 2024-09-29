@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Taught high schoolers a <a href="https://www.ttic.edu/news/#0824-2">course</a> on how to build and program robot arms at <a href="https://www.ttic.edu/">TTIC</a>!
+Concluded teaching a [course](projects/manipulation_course) on how to build and program robot arms at [TTIC](https://ttic.edu/)!
