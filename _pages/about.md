@@ -19,6 +19,6 @@ I graduated from [UChicago](https://www.uchicago.edu/) with a BS in Applied Math
 
 My robotics journey started in March 2024, when I joined the [Robot Intelligence through Perception Lab](https://ttic.edu/ripl/), advised by [Prof. Matthew Walter](https://home.ttic.edu/~mwalter/). My research goal is to build robots that can develop a deep understanding of the world by learning from humans and their own experiences. Thus, I am interested in **imitation learning**, **reinforcement learning**, and **self-supervised learning**.
 
-Previously, I was a member of [ZeD Lab](https://zed.uchicago.edu/) at UChicago Medicine, fortunate to be advised by [Prof. Ishanu Chattopadhyay](https://zed.uchicago.edu/people.html).
+Previously, I was a member of [ZeD Lab](https://zed.uchicago.edu/) at UChicago Medicine, fortunate to be advised by [Prof. Ishanu Chattopadhyay](https://www.linkedin.com/in/ishanu-chattopadhyay-8579103b/).
 
 My favorite hobby is building custom [LEGO creations](/lego). I sporadically post time-lapses on my [YouTube channel](https://www.youtube.com/@kevthebuilder), and my creations have been displayed in the LEGO House and LEGOLAND Billund! I also enjoy playing basketball, cheering on Borussia Dortmund, playing guitar and harmonica, and reading.
