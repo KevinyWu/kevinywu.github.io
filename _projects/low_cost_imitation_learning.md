@@ -6,7 +6,7 @@ img: assets/img/projects/low-cost-imitation-learning/cover.jpg
 importance: 1
 category: robotics
 redirect:
-related_publications: true
+related_publications: false
 ---
 <hr>
-COMING SOON...
+COMING SOON ...
