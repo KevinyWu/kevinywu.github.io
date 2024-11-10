@@ -15,7 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I graduated from [UChicago](https://www.uchicago.edu/) with a BS in Applied Math and a MS in Computer Science in June 2024. I currently work as a software engineer at [MathWorks](https://www.mathworks.com/) in the Boston area.
+I graduated from [UChicago](https://www.uchicago.edu/) with a 4-year joint BS/MS in Applied Math and Computer Science in June 2024. I currently work as a software engineer at [MathWorks](https://www.mathworks.com/) in the Boston area.
 
 My robotics journey started in March 2024, when I joined the [Robot Intelligence through Perception Lab](https://ttic.edu/ripl/), advised by [Prof. Matthew Walter](https://home.ttic.edu/~mwalter/). My research goal is to build robots that can develop a deep understanding of the world by learning from humans and their own experiences. Thus, I am interested in **imitation learning**, **reinforcement learning**, and **self-supervised learning**.
 
