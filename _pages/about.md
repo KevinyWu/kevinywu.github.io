@@ -17,7 +17,7 @@ social: true # includes social icons at the bottom of the page
 
 I graduated from [UChicago](https://www.uchicago.edu/) with a 4-year joint BS/MS in Applied Math and Computer Science in June 2024. I currently work as a software engineer at [MathWorks](https://www.mathworks.com/) in the Boston area.
 
-My robotics journey started in March 2024, when I joined the [Robot Intelligence through Perception Lab](https://ttic.edu/ripl/), advised by [Prof. Matthew Walter](https://home.ttic.edu/~mwalter/). My research goal is to build robots that can develop a deep understanding of the world by learning from humans and their own experiences. Thus, I am interested in **imitation learning**, **reinforcement learning**, and **self-supervised learning**.
+My robotics journey started in March 2024, when I joined the [Robot Intelligence through Perception Lab](https://ttic.edu/ripl/), advised by [Prof. Matthew Walter](https://home.ttic.edu/~mwalter/). My vision is to build robots that interact safely and intelligently with the physical world. A major challenge when building general-purpose robots is the relative lack of action-labeled robot data, especially when compared to vision and language models. My research is motivated by the question: **how can we efficiently scale robot learning without scaling robot data?**
 
 Previously, I was a member of [ZeD Lab](https://zed.uchicago.edu/) at UChicago Medicine, fortunate to be advised by [Prof. Ishanu Chattopadhyay](https://scholars.uky.edu/en/persons/ishanu-chattopadhyay).
 

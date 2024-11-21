@@ -15,7 +15,7 @@ related_publications: false
     </div>
 </div>
 
-I had the pleasure of designing and building a 4-DOF prototype arm module with [Duckietown](https://duckietown.com/), a company offering small autonomous vehicles ("Duckiebots") for education and research. The arm enables the Duckiebot to grasp objects and interact with its environment, leading to a wide range of new applications. With the arm module, the Duckiebot is among the world's smallest fully-programmable mobile manipulators.
+I had the pleasure of designing and building a 4-DOF prototype arm module with [Duckietown](https://duckietown.com/), a company offering small autonomous vehicles ("Duckiebots") for education and research. The arm is fully programmable and seamlessly powered by the Duckiebot’s onboard computer and battery. With the arm module, the Duckiebot is among the world's smallest fully-programmable mobile manipulators.
 
 <div class="row">
     <div class="col">
