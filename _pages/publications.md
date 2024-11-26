@@ -6,7 +6,7 @@ description:
 nav: true
 nav_order: 3
 ---
-* denotes equal contribution.
+A * denotes equal contribution.
 <!-- _pages/publications.md -->
 
 <!-- Bibsearch Feature -->
