@@ -3,7 +3,7 @@ layout: page
 title: Duckiebot Arm
 description: Collaboration with Duckietown. World's smallest fully-programmable mobile manipulator.
 img: assets/img/projects/duckiebot-arm/cover.jpg
-importance: 4
+importance: 1
 category: robotics
 redirect:
 related_publications: false
