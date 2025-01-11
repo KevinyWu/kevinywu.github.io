@@ -58,7 +58,7 @@ Visit my [YouTube](https://www.youtube.com/@kevthebuilder) for time-lapses and [
         {% include figure.liquid loading="eager" path="assets/img/lego/temple.jpg" title="Temple Ruins" class="img-fluid rounded z-depth-1" zoomable=true%}
       <!-- </a>
       <a href="https://www.youtube.com/watch?v=kW9Tgx138kE"> -->
-        {% include figure.liquid loading="eager" path="assets/img/lego/venice.jpg" title="River Town" class="img-fluid rounded z-depth-1" zoomable=true%}
+        {% include figure.liquid loading="eager" path="assets/img/lego/dog_robots.jpg" title="Dog Mechs" class="img-fluid rounded z-depth-1" zoomable=true%}
       <!-- </a> -->
     </div>
     <div class="col">
@@ -75,10 +75,10 @@ Visit my [YouTube](https://www.youtube.com/@kevthebuilder) for time-lapses and [
         {% include figure.liquid loading="eager" path="assets/img/lego/planets.jpg" title="Planets" class="img-fluid rounded z-depth-1" zoomable=true%}
       <!-- </a>
       <a href="https://flic.kr/p/2j7jPpw"> -->
-        {% include figure.liquid loading="eager" path="assets/img/lego/bear.jpg" title="Bear" class="img-fluid rounded z-depth-1" zoomable=true%}
+        <!-- {% include figure.liquid loading="eager" path="assets/img/lego/bear.jpg" title="Bear" class="img-fluid rounded z-depth-1" zoomable=true%} -->
       <!-- </a>
       <a href="https://flic.kr/p/2j3FCU1"> -->
-        {% include figure.liquid loading="eager" path="assets/img/lego/dog_robots.jpg" title="Dog Mechs" class="img-fluid rounded z-depth-1" zoomable=true%}
+        {% include figure.liquid loading="eager" path="assets/img/lego/venice.jpg" title="River Town" class="img-fluid rounded z-depth-1" zoomable=true%}
       <!-- </a> -->
     </div>
     <div class="col">
