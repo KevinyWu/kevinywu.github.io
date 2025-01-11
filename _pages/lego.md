@@ -74,9 +74,6 @@ Visit my [YouTube](https://www.youtube.com/@kevthebuilder) for time-lapses and [
       <a href="https://flic.kr/p/2h8uNoE"> -->
         {% include figure.liquid loading="eager" path="assets/img/lego/planets.jpg" title="Planets" class="img-fluid rounded z-depth-1" zoomable=true%}
       <!-- </a>
-      <a href="https://flic.kr/p/2j7jPpw"> -->
-        <!-- {% include figure.liquid loading="eager" path="assets/img/lego/bear.jpg" title="Bear" class="img-fluid rounded z-depth-1" zoomable=true%} -->
-      <!-- </a>
       <a href="https://flic.kr/p/2j3FCU1"> -->
         {% include figure.liquid loading="eager" path="assets/img/lego/venice.jpg" title="River Town" class="img-fluid rounded z-depth-1" zoomable=true%}
       <!-- </a> -->
